@@ -1,0 +1,228 @@
+
+/* -------------- BODY ------------------- */
+body {
+    margin: 0%;
+}
+
+/* ------------- NAVBAR ------------------ */
+.Navbar {
+    overflow: hidden;
+    background-color: #b4dfe5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* ---------- NAVBAR TEXT ----------------- */
+.Navbar a {
+    float: left;
+    display: block;
+    color: #303c6c;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+/* -------------- NAVBAR HOVER EFFECT ---------- */
+.Navbar a:hover {
+    background-color: #fbe8a6;
+    color:  #303c6c;
+    font-weight: bold;
+}
+/* NAVBAR HOME BUTTON */
+.Navbar a.active {
+    background-color:  #defdff;
+}
+
+/* ------------- VIDEO -------------------- */
+#Coding_Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    max-width: 100%;
+    filter: blur(3px);
+}
+
+/* ---------- TEXT OVER VIDEO ------------ */
+.Video_Text {
+    background: #303c6cd3;
+    color: #f4976c;
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 23%;
+}
+
+
+/* ---------------- TABLE ----------------- */
+* {
+    box-sizing: border-box;
+}
+
+.Column_1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3%;
+    height: 400px;
+    background-color: #fbe8a6;
+}
+
+.Column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 1.9%;
+    height: 400px;
+    background-color: #d7e7e9;
+}
+
+.Column_3 {
+    float: left;
+	width: 50%;
+	padding: 10px;
+	padding-top: 3.5%;
+	height: 450px;
+	background-color: #d7e7e9;
+}
+
+.Row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* ------------- HEADING 1 ELEMENTS ------------ */
+h1 {
+	text-transform: uppercase; 
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+	text-align: center;
+	margin-top: 3%; 
+    color: #303c6c;
+    font-weight: bold;
+}
+
+/* --------------- PARAGRAPH ELEMENTS ------------*/
+p {
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	letter-spacing: 1px; 
+	font-size: 16px;
+	padding-left: 20px;
+    padding-right: 20px;
+    color: #303c6c;
+}
+
+/* ------------ CENTER ALIGN ELEMENTS ------------ */
+center {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* --------------- ANCHOR ELEMENTS ---------------*/
+a {
+	color: blue; 
+}
+
+/* -------------- QUOTATION ELEMENTS ------------- */
+q {
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* --------------- IMAGE ELEMENTS ------------- */
+img {
+    filter: grayscale(25%);
+    border-radius: 8px;
+    max-width: 100%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* -------------- CONTACT FORM ------------ */
+input[type=text] { 
+	width: 100%;
+	padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* ------------ SUBMIT BUTTON ------------- */
+input[type=submit] { 
+	background-color: #303c6c;
+	color: white;
+	font-weight: bold;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* -------- HOVER EFFECT FOR SUBMIT BUTTON ---- */
+input[type=submit]:hover {
+	background-color: white; 
+	color: #303c6c; 
+	font-weight: bold; 
+	transform: scale(1.5); 
+	transition: transform 1.5s; 
+}
+
+/* ---------- FORM ELEMENT ---------- */
+form { 
+	border-radius: 5px; 
+    background-color: #f4976c;
+    color: #303c6c;
+	padding: 15px;
+	font-family: 'Playfair Display', serif;
+}
+
+/* ---- CENTER ALIGN ELEMENT HOVER EFFECT ---- */
+center:hover {
+	transition: transform 2s;
+	transform: scale(1.1);
+}
+
+/* ----- PARAGRAPH ELEMENT HOVER EFFECT -----  */
+p:hover {
+	color: black;	
+    transition: transform 1s;
+	transform: scale(1.01);
+}
+
+/* ------- HEADING 1 ELEMENT HOVER EFFECT -------- */
+h1:hover {
+	color: black;
+	font-weight: normal; 
+}
+
+/* -------- IMAGE ELEMENT HOVER EFFECT --------*/
+img:hover {
+	filter: grayscale(0%);  
+    transition: transform 1s;
+	transform: scale(1.1);
+}
+
+/* ------ FOOTER ELEMENT ------- */
+footer {
+	padding: 2%;
+    background-color:#b4dfe5cb;
+    color: #303c6c;
+}
